@@ -24,7 +24,7 @@ function fetchLocation(ip)
 {
 	fetch('https://ipinfo.io/'+ip+'?token=yourtoken')
 	.then( res => res.json() )
-	.then(response => {
+	.then(response => {04929298}
 		console.log("Country :"+response.country)
 		console.log("State : "+response.region)
 		console.log("City : " +response.city)
